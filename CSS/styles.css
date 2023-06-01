@@ -768,3 +768,30 @@ margin: 0;
         justify-content: center;
         align-items: center;
     }
+}
+
+/* Feature Block */
+
+.feature{
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type{
+    margin-top: 4rem;
+}
+.feature__heading{
+    margin-top: 1rem 0;
+}
+
+.feature__image{
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .feature:nth-of-type(even) .feature__content{
+        order: 2;
+    }
+}   
+
+/* Showcase Block */
